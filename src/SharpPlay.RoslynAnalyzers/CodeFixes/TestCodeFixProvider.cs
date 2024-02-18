@@ -19,7 +19,7 @@ namespace SharpPlay.RoslynAnalyzers.CodeFixes.Providers;
 [Shared]
 public class TestCodeFixProvider : CodeFixProvider
 {
-    public sealed override ImmutableArray<string> FixableDiagnosticIds => [TestAnalyzer.DiagnosticId];
+    public sealed override ImmutableArray<string> FixableDiagnosticIds => [TestAnalyzer.DIAGNOSTIC_ID];
 
     public sealed override FixAllProvider GetFixAllProvider()
     {
